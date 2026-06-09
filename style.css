@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+}
+
+.background {
+  height: 100vh;
+  background-color: #C9B59C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.icons {
+  height: 300px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.first {
+  font-family: 'Great Vibes', cursive;
+  font-size: 6rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+
+}
+.second {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+.me {
+  border-radius: 50%;
+  margin-bottom: 80px;
+}
+
+.goals {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;          /* centers the whole row */
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.skill-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;        /* optional */
+  object-fit: cover;
+}
+
+.skill-text {
+  max-width: 500px;
+}
+
+.skill-text h3 {
+  margin: 0;
+  color: #2a918c;  /* nice teal like in example */
+  font-weight: 700;
+}
+
+.skill-text p {
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.be {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.be p {
+  max-width: 500px;   /* adjust as you like */
+  text-align: center;
+  
+}
+.bott {
+  margin-bottom: 70px;
+}
+
+.footerbackground {
+  background-color: #C9B59C;
+  padding: 20px;
+}
+.bottom-container {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;           /* space between links */
+  justify-content: center;
+  margin-bottom: 15px; /* space before copyright */
+}
+
+.footer-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #555;
+  font-size: 0.9rem;
+}
